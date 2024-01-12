@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Skip the header row if there is one. 
 
-path = 'C:\\Users\\Lab Student D\\OneDrive \- Imperial College London\\Desktop\\Chris_aryan\\C2_micromagnetics\\hysiterisis\\table.txt'
+path = 'C:\\Users\\Lab Student D\\OneDrive \- Imperial College London\\Desktop\\Chris_aryan\\C2_micromagnetics\\hysteresis\\table.txt'
 data = np.loadtxt(path, skiprows=1)
 
  
@@ -36,5 +36,5 @@ plt.title('Plot of m_x vs B_ext')
 plt.legend() 
 
 plt.grid(True) 
-plt.savefig('graph.png')
+plt.savefig('hysteresis\\graph.png')
 plt.show()
